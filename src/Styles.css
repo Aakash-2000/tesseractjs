@@ -1,0 +1,50 @@
+
+.container{
+    width:70%;
+    height:70vh;
+    border:1px solid grey;
+    border-radius:10px;
+    
+}
+#uploadbtn{
+    margin:0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+   
+    text-align: center;
+    color:white;
+    background-color:#7b1fa2;
+    font-family: 'Gill Sans';
+    font-size:1.5rem;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+#converted_text{
+    
+    border: none;
+    width:100%;
+    height:100%;
+
+}
+@media screen and (max-width:600px){
+    .container{
+        height:50vh;
+    }
+}
